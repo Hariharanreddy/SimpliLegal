@@ -47,7 +47,7 @@ export const POST = async (req: NextRequest) => {
   });
 
   const pinecone = await getPineconeClient();
-  const pineconeIndex = pinecone.Index("SimpliLegal");
+  const pineconeIndex = pinecone.Index("simplilegal");
 
   const vectorStore = await PineconeStore.fromExistingIndex(embeddings, {
     pineconeIndex,

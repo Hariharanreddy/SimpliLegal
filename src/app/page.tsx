@@ -16,21 +16,18 @@ import CTA from "@/components/landingUI/CTA";
 import FAQ from "@/components/landingUI/FAQ";
 
 export default function Home() {
-
   return (
     <>
       <main>
-        <MaxWidthWrapper>
-          <Hero />
-          <Brands />
-          <Feature />
-          <About />
-          <FeaturesTab />
-          <FunFact />
-          <Integration />
-          <CTA />
-          <FAQ />
-        </MaxWidthWrapper>
+        <Hero />
+        <Brands />
+        <Feature />
+        <About />
+        <FeaturesTab />
+        <FunFact />
+        <Integration />
+        <CTA />
+        <FAQ />
       </main>
     </>
   );
