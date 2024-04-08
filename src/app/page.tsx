@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <main>
         <Hero />
-        <Brands />
+        {/* <Brands /> */}
         <Feature />
         <About />
         <FeaturesTab />
